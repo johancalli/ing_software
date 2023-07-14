@@ -20,7 +20,7 @@ Este enfoque implica la adición de un nuevo campo a la clase Cuenta que rastrea
 Independientemente del enfoque, deberían agregarse casos de prueba para asegurar que el límite de transferencia diario se implemente correctamente. Estos podrían incluir:
 
 Realizar transferencias que sumen menos de 200 soles en un día. Estas transferencias deben ser exitosas.
-Realizar una transferencia que haga que el total de las transferencias del día supere los 200 soles. Esta transferencia debe ser rechazada. Aquí pueden intervenir nuevas variables como la zona horaria del usuario, ya el "reset" del límite podria ser más cómodo en horarios específicos para ciertos usuarios. 
+Realizar una transferencia que haga que el total de las transferencias del día supere los 200 soles. Esta transferencia debe ser rechazada. Aquí pueden intervenir nuevas variables como la zona horaria del usuario, ya que el "reset" del límite podria ser más cómodo en horarios específicos para ciertos usuarios. 
 
 
 # Riesgo de "romper" la funcionalidad existente
