@@ -24,8 +24,11 @@ Realizar una transferencia que haga que el total de las transferencias del día 
 
 
 # Riesgo de "romper" la funcionalidad existente
-Implementar esta nueva característica implica un riesgo moderado. Las modificaciones a la clase Cuenta y a sus métodos, en particular el método pagar, podrían introducir bugs que afecten a la capacidad de los usuarios para realizar transferencias. Por ejemplo, se debe manejar errores referentes a la límite recientemente implementado, si estos tienen un retraso al actualizarce, el usuario podría hacer varias transferencias antes que el límite que tiene que haga vigente en su cuenta. Así como estos errores, pueden surgir más, principalmente relacionados con el manejo del historial de pagos del día.
+Implementar esta nueva característica implica un riesgo moderado. Las modificaciones a la clase Cuenta y a sus métodos, en particular el método pagar, podrían introducir bugs que afecten a la capacidad de los usuarios para realizar transferencias. Por ejemplo, se debe manejar errores referentes a la límite recientemente implementado, si estos tienen un retraso al actualizarse, el usuario podría hacer varias transferencias antes que el límite que tiene que haga vigente en su cuenta. Así como estos errores, pueden surgir más, principalmente relacionados con el manejo del historial de pagos del día.
 
 
+![](/img/test.png)
+![](/img/test1.png)
+![](/img/test2.png)
 
 
